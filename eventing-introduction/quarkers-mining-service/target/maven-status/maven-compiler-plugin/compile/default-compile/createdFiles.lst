@@ -1,0 +1,4 @@
+com/redhat/training/model/BitmineStatus.class
+com/redhat/training/rest/MiningResource.class
+com/redhat/training/model/Bitmine.class
+com/redhat/training/service/MiningService.class

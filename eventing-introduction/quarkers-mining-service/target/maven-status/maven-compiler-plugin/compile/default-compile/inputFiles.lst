@@ -1,0 +1,4 @@
+/home/student/DO244/eventing-introduction/quarkers-mining-service/src/main/java/com/redhat/training/model/Bitmine.java
+/home/student/DO244/eventing-introduction/quarkers-mining-service/src/main/java/com/redhat/training/model/BitmineStatus.java
+/home/student/DO244/eventing-introduction/quarkers-mining-service/src/main/java/com/redhat/training/rest/MiningResource.java
+/home/student/DO244/eventing-introduction/quarkers-mining-service/src/main/java/com/redhat/training/service/MiningService.java
