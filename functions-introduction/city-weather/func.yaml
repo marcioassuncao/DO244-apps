@@ -1,0 +1,22 @@
+version: 0.23.0
+name: city-weather
+namespace: ""
+runtime: python
+registry: ""
+image: image-registry.openshift-image-registry.svc:5000/developer-functions-introduction/city-weather:latest
+imageDigest: sha256:b35426da3e5fd6094eef6a97923a3295efc1baa244d80a623ad4c1c54e77dabb
+build: local
+git: {}
+buildpacks: []
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2023-11-09T06:28:12.038582809-05:00
+invocation:
+  format: http
