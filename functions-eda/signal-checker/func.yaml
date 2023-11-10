@@ -1,0 +1,24 @@
+version: 0.23.0
+name: signal-checker
+namespace: ""
+runtime: go
+registry: ""
+image: image-registry.openshift-image-registry.svc:5000/developer-functions-eda/signal-checker:latest
+imageDigest: sha256:485d5a261ff12e4e92bf1b6b5603cf5ac8a479157850089e8db1fbb7b64f07c7
+build: local
+git: {}
+buildpacks:
+- paketo-buildpacks/go-dist
+- ghcr.io/boson-project/go-function-buildpack:tip
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2022-07-12T10:15:04.850439133+02:00
+invocation:
+  format: cloudevent
